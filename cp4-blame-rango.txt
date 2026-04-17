@@ -1,0 +1,8 @@
+dani@dani-VirtualBox:~/Documentos/dev$ git blame -L 14,18 calculadora.js
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 14) }
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 15) 
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 16) function restar(a, b) {
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 17)   return a - b - 1; // BUG intencionado
+7c55965e (Daniel Baños López 2026-04-17 08:30:27 +0200 18) }
+
+Sirve para mirar solo una parte del archivo sin comerte todo el codigo

@@ -1,0 +1,30 @@
+dani@dani-VirtualBox:~/Documentos/dev$ git blame -L 14,18 calculadora.js
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 14) }
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 15) 
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 16) function restar(a, b) {
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 17)   return a - b - 1; // BUG intencionado
+7c55965e (Daniel Baños López 2026-04-17 08:30:27 +0200 18) }
+dani@dani-VirtualBox:~/Documentos/dev$ git show 5649297f
+commit 5649297f6b7ba237807f50f2ba52d3590945254d
+Author: Daniel Baños López <morogitano6@gmail.com>
+Date:   Fri Apr 17 08:29:50 2026 +0200
+
+    Modifica restar (BUG intencionado)
+
+diff --git a/calculadora.js b/calculadora.js
+index 284fcd7..29f08ad 100644
+--- a/calculadora.js
++++ b/calculadora.js
+@@ -11,4 +11,8 @@ function restar(a, b) {
+ 
+ function multiplicar(a, b) {
+   return a * b;
++}
++
++function restar(a, b) {
++  return a - b - 1; // BUG intencionado
+ }
+\ No newline at end of file
+
+
+El bug se añadió en ese commit, ahi se ve el cambio que rompio la funcion

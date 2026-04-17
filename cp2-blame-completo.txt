@@ -1,0 +1,15 @@
+7c55965 (HEAD -> main) Añade TODO para función dividir
+5649297 Modifica restar (BUG intencionado)
+b6efae0 Añade función multiplicar
+a92ab6a Añade funciones sumar y restar
+dani@dani-VirtualBox:~/Documentos/dev$ git blame -L 14,20 calculadora.js
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 14) }
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 15) 
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 16) function restar(a, b) {
+5649297f (Daniel Baños López 2026-04-17 08:29:50 +0200 17)   return a - b - 1; // BUG intencionado
+7c55965e (Daniel Baños López 2026-04-17 08:30:27 +0200 18) }
+7c55965e (Daniel Baños López 2026-04-17 08:30:27 +0200 19) 
+7c55965e (Daniel Baños López 2026-04-17 08:30:27 +0200 20) // TODO: añadir función dividir
+
+
+blame te da por cada linea el Hash, nombre apellidos fecha y hora de la modificacion y el que se modificó

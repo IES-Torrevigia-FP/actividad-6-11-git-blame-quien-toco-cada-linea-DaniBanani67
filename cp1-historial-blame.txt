@@ -1,0 +1,4 @@
+7c55965 (HEAD -> main) Añade TODO para función dividir
+5649297 Modifica restar (BUG intencionado)
+b6efae0 Añade función multiplicar
+a92ab6a Añade funciones sumar y restar
